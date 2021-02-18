@@ -1,0 +1,8 @@
+<suite name="yahoo">
+ <test name="tst_yahoo_testing">
+ <classes>
+      <class name="testSuites.SanityTest"/>  
+      <class name="testSuites.ReTest"/>         
+  </classes>  
+ </test>
+</suite>
