@@ -39,7 +39,7 @@ public class BaseClass
   @BeforeSuite
   public void reportinitialise()
   {
-	  System.out.println("hello");
+	  System.out.println("this program will do initialize");
 	  	prop=new Properties();
 		try{prop.load(new FileInputStream("src/main/java/config/config.properties"));}catch(Exception e) {}
 		
